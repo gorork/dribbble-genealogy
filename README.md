@@ -7,12 +7,10 @@ Try the [live demo](http://js.ework.me/code/dribbble-genealogy/) with your own d
 
 ![](dribbble-genealogy.jpg?raw=true)
 
-Have fun! :)
-
-**Dependancies:**
+**Dependencies:**
 - jQuery
 
 ----------------
 Licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
-Copyright © 2014 [Nadi Dikun](https://js.ework.me)
+Copyright © 2014 [Nadí Dikun](https://js.ework.me)
