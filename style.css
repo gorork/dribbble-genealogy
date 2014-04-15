@@ -1,0 +1,197 @@
+/* import Google Webfont */
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,400);
+
+/* Lets reset the CSS:
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/************* end of reset **************/
+
+
+body{background: #91D5F0;}
+
+#page{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    display: inline-block;
+}
+
+.info {
+    z-index: 3;
+    position: relative;
+    padding: 9px 12px 9px 12px;
+    background-color: white;
+    display: inline-block;
+    margin: -8px 0 15px 0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#line {
+    background-color: #e0427f;
+    height: 30px;
+    width: 4px;
+    position: relative;
+    margin-left: 199px;
+    top:15px;
+    margin-top: -30px;
+    margin-bottom: -15px;
+    z-index: 2;
+}
+#playerProfile li:first-child > #line {display: none;}
+
+#whiteline {
+    height: 35px;
+    width: 6px;
+    position: relative;
+    margin-left: 197px;
+    margin-top: -30px;
+    margin-bottom: -15px;
+    z-index: 1;
+    border-left: 1px dotted #e0427f;
+    border-right: 1px dotted #e0427f;
+}
+#playerProfile li:first-child > #whiteline {display: none;}
+.photo{margin-top: 15px;}
+#profile{display: inline-block;}
+#playerProfile, #share{display: inline-block;}
+
+#playerProfile{
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 3px, rgba(255,255,255,.1) 3px, rgba(255,255,255,.1) 4px);
+    font-size: 11px;
+    width: 400px;
+    border-radius: 9px;
+    padding-bottom: 20px;
+    padding-top: 14px;
+    border: 5px solid #ffffff;
+}
+
+#playerProfile li {list-style: none; }
+
+.avatar {
+    z-index: 3;
+    position: relative;
+    border-radius:100%;
+    border: 8px solid white;
+    height:80px;
+    width:80px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#name{
+    font-size: 2em;
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: #778899;
+}
+
+a {text-decoration: none;}
+#playerProfile a:hover {color: #e0427f;}
+
+#location{
+    padding-top: 2px;
+    margin-bottom: -1px;
+    font-size: 12px; /* 14?*/
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: #778899;
+}
