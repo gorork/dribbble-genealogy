@@ -5,12 +5,11 @@ Dribbble Genealogy is a script that allows showcasing Dribbble player's genealog
 
 Try the [live demo](http://js.ework.me/code/dribbble-genealogy/) with your own dribbble username.
 
-img: src (http://js.ework.me/wp-content/uploads/2014/04/dribbble-genealogy.jpg)
+![](dribbble-genealogy.jpg?raw=true)
 
 Have fun! :)
 
-Dependancies:
-
+**Dependancies:**
 - jQuery
 
 ----------------
